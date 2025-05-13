@@ -1,7 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Business Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+        }
+        .card {
+            width: 350px;
+            padding: 30px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .card h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #333;
+        }
+        .card p {
+            margin: 10px 0;
+            color: #777;
+        }
+        .card .contact-info {
+            margin-top: 20px;
+        }
+        .card .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+    <div class="card">
+        <h1>Your Name</h1>
+        <p>Position Title</p>
+        <p>Company Name</p>
+
+        <div class="contact-info">
+            <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Website: <a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a></p>
+        </div>
+    </div>
+
 </body>
 </html>
